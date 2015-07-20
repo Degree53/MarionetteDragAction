@@ -1,0 +1,21 @@
+{
+  "name": "MarionetteDragAction",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Degree53/MarionetteDragAction",
+  "authors": [
+    "Karl Purkhardt <karl.purkhardt@degree53.com>"
+  ],
+  "description": "Provides a Marionette View Behaviour for managing visual drag actions on a view.",
+  "main": "drag-action.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marionette-swipe-action": "git@github.com:Degree53/MarionetteSwipeAction.git"
+  }
+}
