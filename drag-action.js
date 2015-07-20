@@ -49,7 +49,7 @@ var DragActionBehavior = SwipeActionBehavior.extend({
         // Wait for the transition to end
         $el.on('transitionend webkitTransitionEnd', function() {
             SwipeActionBehavior.prototype.cancelAction.call(this, $el);
-            this.reset($el);
+            this.__reset($el);
         }.bind(this));
     },
 
