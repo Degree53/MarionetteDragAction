@@ -1,0 +1,22 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Degree53/MarionetteDragAction",
+  "authors": [
+    "Karl Purkhardt <karl.purkhardt@degree53.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-hammerjs": "~2.0.0",
+    "marionette": "~2.4.2",
+    "marionette-swipe-action": "https://raw.githubusercontent.com/Degree53/MarionetteSwipeAction/master/swipe-action.js"
+  }
+}
