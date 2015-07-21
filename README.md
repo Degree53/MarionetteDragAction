@@ -3,8 +3,6 @@ Provides a Marionette View Behaviour for managing visual drag actions on a view.
 
 # Support
 
-See http://hammerjs.github.io/browser-support/
-
  - Android 4.1+
  - iOS 7.1+
  
