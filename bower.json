@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "MarionetteSwipeAction": "git@github.com:Degree53/MarionetteSwipeAction.git"
+    "MarionetteSwipeAction": "https://github.com/Degree53/MarionetteSwipeAction.git"
   }
 }
