@@ -19,10 +19,10 @@ var DragActionBehavior = SwipeActionBehavior.extend({
      */
     onDrag: function(e) {
 
-        var target = e.target;
+        var target = this.getDragTargetElement();
 
         // Translate the element on the X axis, following the drag gesture
-        $(target).css({
+        target.css({
             '-webkit-transform': 'translateX(' + e.deltaX + 'px)',
             'transform': 'translateX(' + e.deltaX + 'px)'
         });
@@ -34,7 +34,7 @@ var DragActionBehavior = SwipeActionBehavior.extend({
      */
     cancelAction: function($el) {
 
-         // Transition the drag target back to the starting position
+        // Transition the drag target back to the starting position
         $el.css({
             '-webkit-transition': '-webkit-transform 0.2s ease-in-out',
             'transition': 'transform 0.2s ease-in-out',
