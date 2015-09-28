@@ -17,6 +17,7 @@
   "dependencies": {
     "jquery-hammerjs": "~2.0.0",
     "marionette": "~2.4.2",
-    "MarionetteSwipeAction": "https://raw.githubusercontent.com/Degree53/MarionetteSwipeAction/master/swipe-action.js"
+    "MarionetteSwipeAction": "https://raw.githubusercontent.com/Degree53/MarionetteSwipeAction/master/swipe-action.js",
+    "MarionetteDragAction": "../../drag-action.js"
   }
 }
