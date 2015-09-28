@@ -21,14 +21,10 @@ var DragActionBehavior = SwipeActionBehavior.extend({
 
         var target = e.target;
 
-        if (!e.gesture) {
-            return;
-        }
-
         // Translate the element on the X axis, following the drag gesture
         $(target).css({
-            '-webkit-transform': 'translateX(' + e.gesture.deltaX + 'px)',
-            'transform': 'translateX(' + e.gesture.deltaX + 'px)'
+            '-webkit-transform': 'translateX(' + e.deltaX + 'px)',
+            'transform': 'translateX(' + e.deltaX + 'px)'
         });
     },
 
